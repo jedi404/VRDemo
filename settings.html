@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+      
+  <meta charset="utf-8">
+	<style>
+	
+
+	body{
+	background-color:rgb(153, 153, 153);
+	//change background color to black and text to white for all pages
+	//add buttons to links to pages ana link to vrhomepage for each page
+	//add forms for concert setup,account setup and deposit account
+	//add data list for generic concerts times ad ticket sales
+	}
+	</style>
+	
+</head>
+
+<body>
+
+<a href="VRHomepage.html"><button>Home</button></a>
+<br><br>
+
+<form action="action_page.php">
+  First Name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last Name:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+  Band Name<br>
+  <input type="text" name="bandname" value="">
+  <br>
+  Event Name<br>
+  <input type="text" name="eventname" value="">
+  <br>
+  Event Location <br>
+  <input type="text" name="eventlocation" value="">
+  <br>
+  Ticket Price<br>
+  <input type="text" name="ticketprice" value="">
+  <br><br><br>
+  Event Availability<br>
+  <input type="text" name="eventavailability" value="">
+  <select>
+  <option value="1day">0.5-1 days</option>
+  <option value="2-3day">2-3 days</option>
+  <option value="4-7day">4-7 days</option>
+</select><br><br>
+
+   Main Account Deposit<br>
+  <input type="text" name="accountdeposit" value="">
+  <select>
+  <option value="debtcard">Debit Card</option>
+  <option value="creditcard">Credit Card</option>
+  <option value="checkingaccount">Checking Account</option>
+  <option value="paypal">Paypal Account</option>
+</select><br><br>
+
+  Funds:Direct Deposit<br>
+  <input type="text" name="fundallocation" value="">
+  <select>
+  <option value="1-3">1-3 accounts</option>
+  <option value="4-10">4-10 accounts</option>
+  <option value="20+">20+ accounts</option>
+</select><br><br>
+  
+  <input type="submit" value="Submit">
+  
+</form>
+
+<p></p>
+
+</body>
+</html>
+
