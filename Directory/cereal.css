@@ -1,0 +1,68 @@
+#logo{
+	width:30%;
+	height:255px;
+	margin-top:1px;
+	margin-left:33%;
+	display:block;
+	
+	}
+	
+	#title{
+	text-align:center;
+
+	}
+	
+	#menu{
+	text-align:center;
+	word-spacing:300px;
+	border-top-style:solid;
+    border-bottom-style:solid;
+	height:60px;
+	font-size:large;
+
+
+	
+	
+	
+
+    
+
+	
+   
+	}
+	
+	#newrelease{
+	margin-left:25%;
+	display:block;
+	width:50%;
+	}
+	
+	p{
+	text-align:center;
+	font-size:large;}
+	
+	body{
+	background-color:rgb(153, 153, 153);
+	//change background color to black and text to white for all pages
+	//add buttons to links to pages ana link to vrhomepage for each page
+	//add forms for concert setup,account setup and deposit account
+	//add data list for generic concerts times ad ticket sales
+	}
+	
+	#footer{
+	text-align:right;
+	}
+	
+	li{
+	float:left;
+	list-style-type: none
+	
+	
+ }
+ ul a {
+ padding-right: 32px;
+ padding-left: 32px;
+ margin-left:140px;
+ text-decoration: none;
+ color: #f2f2f2;
+ }
